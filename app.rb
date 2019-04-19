@@ -15,7 +15,9 @@ class App < Sinatra::Base
     "#{num * num}"
   end 
   
-  get '/say/:number/:phrase'
+  get '/say/:number/:phrase' do 
+    
+  end 
   
 
 end
